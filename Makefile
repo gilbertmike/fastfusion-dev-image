@@ -33,7 +33,7 @@ push-amd64:
 	"${DOCKER_EXE}" manifest create \
 		${NAME}:${ALTTAG} \
 		--amend ${NAME}:${ALTTAG}-amd64 \
-	  --amend ${NAME}:${ALTTAG}-arm64
+	  --amend ${NAME}:${ALTTAG}-amd64
 	"${DOCKER_EXE}" manifest push ${NAME}:${ALTTAG}
 
 push-arm64:
