@@ -69,7 +69,7 @@ RUN pip3 install pydantic>=2.0.0 \
                  numpy \
                  jinja2 \
                  tqdm \
-                 islpy \
                  sympy \
                  platformdirs \
-                 pydot
+                 pydot \
+                 joblib
